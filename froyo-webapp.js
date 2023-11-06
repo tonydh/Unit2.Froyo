@@ -8,11 +8,6 @@ function flavorCount(string) {
     //  prompt user for input and split flavors into an array
     let froyoFlavors = prompt("Please enter a flavor of froyo for each order:").split(",");
 
-    //  edge case if user cancels prompt input
-    if(froyoFlavors === null) {
-        return 0;
-    }
-    
     //  declare an empty object for the froyo flavor count
     const froyoCount = {};
     
